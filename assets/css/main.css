@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-50: #f0f9ff;
+  --primary-600: #0284c7;
+}
+
+.bg-primary-50 {
+  background-color: var(--primary-50);
+}
+
+.bg-primary-600 {
+  background-color: var(--primary-600);
+}
+
+.text-primary-600 {
+  color: var(--primary-600);
+}
